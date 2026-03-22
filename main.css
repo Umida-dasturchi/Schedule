@@ -1,0 +1,37 @@
+h1 {
+    font-weight: 900;
+    margin-left: 45%;
+    margin-top: 8rem;
+}
+
+h2 {
+    margin-left: 39%;
+    margin-top: 2.2rem;
+}
+
+ul {
+    list-style-type: none;
+    /* Removes the dots */
+    padding: 0;
+    /* Removes default indentation */
+}
+
+li {
+    text-decoration: none;
+    /* Removes the underlines */
+    margin-bottom: 1.5rem;
+    /* Adds a little space between levels */
+    margin-left: 11.1rem;
+    font-family: sans-serif;
+}
+
+/* If the text is a link, you MUST target the 'a' tag specifically */
+li a, li{
+    text-decoration: none;
+    color: blue;
+}
+
+.ul {
+    display: flex;
+    margin-top: 4.5rem;
+}

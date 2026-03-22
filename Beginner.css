@@ -1,0 +1,45 @@
+.planner-container {
+    display: flex;
+    /* This puts them side-by-side */
+    gap: 2rem;
+    /* Adds space between the two tables */
+    justify-content: center;
+    padding: 1rem;
+}
+
+/* Optional: force a specific width for consistency */
+.table-left,
+.table-right {
+    width: 45%;
+}
+
+table {
+    border: .0625rem solid #020202;
+    border-collapse: collapse;
+    background-color: white;
+    margin: 2rem;
+}
+
+td,
+th {
+    border: .125rem solid #fff;
+    padding: .5rem;
+}
+
+th {
+    background-color: navy;
+    color: #fff;
+}
+
+/**Zebra striping for readability **/
+tbody tr:nth-child(even) td {
+    background-color: #ff0000;
+}
+
+tbody tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
